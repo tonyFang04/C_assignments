@@ -1,5 +1,5 @@
 #pragma once
-#include "../../General/bool.h"
+#include "../../.ADTs/General/bool.h"
 #include "../readTTL/readTurtleFile.h"
 #include <check.h>
 

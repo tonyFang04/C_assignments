@@ -1,5 +1,5 @@
 #pragma once
-#include "../../General/general.h"
+#include "../../.ADTs/General/general.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <assert.h>
@@ -15,8 +15,8 @@
 #include "../neillSDL/neillsdl2.h"
 #endif
 #ifdef INTERP
-#include "../../Stack/stack.h"
-#include "../../Stack/Linked/specific.h"
+#include "../../.ADTs/Stack/stack.h"
+#include "../../.ADTs/Stack/Linked/specific.h"
 #define NO_Of_VAR 26
 
 struct Node {

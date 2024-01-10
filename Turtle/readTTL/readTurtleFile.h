@@ -4,7 +4,7 @@
 #include <check.h>
 #include <assert.h>
 #include <stdlib.h>
-#include "../../General/bool.h"
+#include "../../.ADTs/General/bool.h"
 #include "../Realloc/realloc.h"
 
 bool checkTerminalInputNumber(int argc);
