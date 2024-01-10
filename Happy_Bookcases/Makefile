@@ -18,5 +18,8 @@ bookcase_s : $(DISPLAY).c $(DISPLAY).h bookcase.c
 bookcase_v : $(DISPLAY).c $(DISPLAY).h bookcase.c
 	$(CC) bookcase.c $(DISPLAY).c -o bookcase_v $(VALGRIND)
 
+extension : extension.cpp
+	g++ extension.cpp -o extension -Wall -Wextra -Wfloat-equal -Wvla -pedantic -std=c++20 -g3 -fsanitize=address -fsanitize=undefined -ldlib
+
 clean :
-	rm -f bookcase bookcase_s bookcase_v
+	rm -f bookcase bookcase_s bookcase_v extension
