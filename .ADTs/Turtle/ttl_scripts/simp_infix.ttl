@@ -1,0 +1,7 @@
+{
+SET F := 20 * 5 - 112 / 4 ;
+DO A FROM 1 TO 5 {
+FD 68
+RT F
+}
+}

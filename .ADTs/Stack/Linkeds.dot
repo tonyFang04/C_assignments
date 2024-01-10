@@ -1,0 +1,14 @@
+digraph { rankdir=TB; node [shape=record]; subgraph cluster_0 { rankdir=TB; color=white;
+n1 [label="{<data>20|next}"];
+n2 [label="{<data>150|next}"];
+n3 [label="{<data>30|next}"];
+n4 [label="{<data>5|next}"];
+n5 [label="{<data>10|&#8226;}"];
+n1:s -> n2:n;
+n2:s -> n3:n;
+n3:s -> n4:n;
+n4:s -> n5:n;
+  top:s -> n1:data:n [tailclip=false];
+  } node [shape=box, fixedsize=true, width=0.35, height=0.30]; top [color=white];
+}
+
